@@ -1,8 +1,8 @@
 import './App.css'
 
-import { Peliculas } from '../components/Peliculas'
-import { useMovies } from '../hooks/useMovies'
-import { useSearch } from '../hooks/useSearch'
+import { Peliculas } from './components/Peliculas'
+import { useMovies } from './hooks/useMovies'
+import { useSearch } from './hooks/useSearch'
 import { useCallback, useState } from 'react'
 import debounce from 'just-debounce-it'
 
