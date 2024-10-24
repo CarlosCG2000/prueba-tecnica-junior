@@ -3,6 +3,7 @@
 Crea una aplicación para buscar películas.
 
 API para usar: - https://www.omdbapi.com/
+
 Consigue la API Key en la propia página web registrando tu email.
 
 Requerimientos:
@@ -33,13 +34,13 @@ Peliculas.jsx
 # 14 HOOKS 
 (UseState (6), UseEffect (1), CustomHook (2), useRef (2), useMemo (1), useCallback (2) )
 
-CustomHook (useSearch) UseEffect  UseState (search, error)  UseRef (firstInput)
+CustomHook (useSearch) --> UseEffect --> UseState (search, error) --> UseRef (firstInput)
 
-‘firstInput’ si el primer input es al entrar en la web, para no analizar ese ya que si no se mostraría el error siempre al principio ya que estará vacío
+‘firstInput' --> si el primer input es al entrar en la web, para no analizar ese ya que si no se mostraría el error siempre al principio ya que estará vacío
 
-CustomHook (useMovies)  UseState (movies, error, loading)  useRef (previusSearch), useCallback (getMovies)  UseMemo (sortMovies)
+CustomHook (useMovies) --> UseState (movies, error, loading) --> useRef (previusSearch), useCallback (getMovies) --> UseMemo (sortMovies)
 
-En el App.jsx  UseState (sort)  useCallback (getMovies)
+En el App.jsx --> UseState (sort) --> useCallback (getMovies)
 
 # LÓGICA
 
