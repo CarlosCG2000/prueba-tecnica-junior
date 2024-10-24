@@ -19,7 +19,7 @@ Primera iteración:
 
 ### ESQUEMA
 <div align="center">
-  <img src="./public/esquema.png" alt="Esquema del proyecto" width="500"/>
+  <img src="./public/esquema.png" alt="Esquema del proyecto" width="650"/>
 </div>
 
 ### INTERFAZ
