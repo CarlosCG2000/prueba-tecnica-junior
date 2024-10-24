@@ -1,0 +1,54 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+form {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* GRID RESPOSIVO */
+.movies {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: grid;
+    /* 1_Decir que es una Grid */
+    width: 100%;
+    /* 2_Tomar el 100% del ancho */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    /* 3_Definir las columnas, repitan el espacio disponible que sea de 200px o sino de 1 fraccion */
+    gap: 32px;
+    /* 4_Espacio entre las columnas */
+}
+
+.movie {
+    text-align: center;
+}
+
+.movie h3,
+.movie p {
+    margin: 0;
+}
+
+.movie img {
+    border-radius: 8px;
+    margin-top: 16px;
+}
+
+.inputBorderError {
+    border: '1px solid transparent',
+}
