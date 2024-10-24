@@ -31,7 +31,7 @@ Primera iteración:
 # 1 COMPONENTES
 Peliculas.jsx
 
-# 14 HOOKS 
+# 14 HOOKS
 (UseState (6), UseEffect (1), CustomHook (2), useRef (2), useMemo (1), useCallback (2) )
 
 CustomHook (useSearch) --> UseEffect --> UseState (search, error) --> UseRef (firstInput)
